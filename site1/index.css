@@ -8,7 +8,7 @@
     font-size: 40px;
     color: white;
     text-align: center;
-    width: 100px;
+    width: 500px;
     height: 20vh;
 }
 
@@ -25,6 +25,7 @@
 .row{
     border: 2px solid red;
     display:flex;
+    flex-direction: row;
 }
 
 .row-reverse{
@@ -43,4 +44,18 @@
     border: 2px solid blue;
     display:flex;
     flex-direction: column-reverse;
+}
+
+.wrap{
+    border: 2px solid red;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wrap-reverse{
+    border: 2px solid red;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
 }

@@ -1,0 +1,46 @@
+.container{ 
+    text-align: center;
+    border: 5px solid black;
+}
+
+
+.box{  
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 20vh;
+}
+
+.box1{background: red;}
+.box2{background: orange;}
+.box3{background: orangered;}
+.box4{background: yellow;}
+.box5{background: yellowgreen;}
+.box6{background: green;}
+.box7{background: teal;}
+.box8{background: lightseagreen;}
+.box9{background: purple;}
+
+.row{
+    border: 2px solid red;
+    display:flex;
+}
+
+.row-reverse{
+    border: 2px solid green;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.column{
+    border: 2px solid blue;
+    display:flex;
+    flex-direction: column;
+}
+
+.column-reverse{
+    border: 2px solid blue;
+    display:flex;
+    flex-direction: column-reverse;
+}
